@@ -15,32 +15,32 @@
 action sUpdateSrcAddr(){
 	idx = flowKeyHashCalc();
 	if (ipv4.srcAddr != rSrcAddr[idx]){
-		ipv4.srcAddr = rSrcAddr[idx];
 		sfExportKey.srcAddr = rSrcAddr[idx];
+		rSrcAddr[idx]= ipv4.srcAddr;
 	}
 }
 
 action sUpdateDstAddr(){
 	idx = flowKeyHashCalc();
 	if (ipv4.dstAddr != rDstAddr[idx]){
-		ipv4.dstAddr = rDstAddr[idx];
 		sfExportKey.dstAddr = rDstAddr[idx];
+		rDstAddr[idx] = ipv4.dstAddr;
 	}
 }
 
 action sUpdatePorts(){
 	idx = flowKeyHashCalc();
 	if (l4_ports.ports != rPorts[idx]){
-		l4_ports.ports = rPorts[idx];
 		sfExportKey.ports = rPorts[idx];
+		rPorts[idx] = l4_ports.ports;
 	}
 }
 
 action sUpdateProtocol(){
 	idx = flowKeyHashCalc();
 	if (ipv4.protocol != rProtocol[idx]){
-		ipv4.protocol = rProtocol[idx];
 		sfExportKey.protocol = rProtocol[idx];
+		rProtocol[idx] = ipv4.protocol;
 	}
 }
 
