@@ -1,0 +1,382 @@
+(base) jsonch@johnshack2:~/dcomp/starflow_analytics/new$ ./benchmark_main 
+# ---------------
+# converting micro-clfrs to clfrs
+# loading 2273509129 bytes of microflows.
+# finished mallocing
+# finished reading
+# writing CLFRs to: mCLFRs.32.clfr
+read 33489500 microflows 
+# ---------------
+# wrote 5350275 clfrs (1123457191bytes ) representing 126387677 packets 
+# bytes per packet: 8.88898
+# packets per record: 23.6227
+# ---------------
+# benchmarking a single micro-clfr reader
+# initializing kernels.
+# loading 2273509129 bytes of microflows.
+# finished mallocing
+# finished reading
+per_input_pkts_per_second = []
+aggregate_pkts_per_second = []
+# executing kernels.
+per_input_pkts_per_second[0]=[3427139.892578, ]
+aggregate_pkts_per_second.append(3427139.892578)
+per_input_pkts_per_second[1]=[7696184.570312, ]
+aggregate_pkts_per_second.append(7696184.570312)
+per_input_pkts_per_second[2]=[8344633.789062, ]
+aggregate_pkts_per_second.append(8344633.789062)
+per_input_pkts_per_second[3]=[8529508.789062, ]
+aggregate_pkts_per_second.append(8529508.789062)
+per_input_pkts_per_second[4]=[9464208.007812, ]
+aggregate_pkts_per_second.append(9464208.007812)
+per_input_pkts_per_second[5]=[8227065.429688, ]
+aggregate_pkts_per_second.append(8227065.429688)
+per_input_pkts_per_second[6]=[7470126.953125, ]
+aggregate_pkts_per_second.append(7470126.953125)
+per_input_pkts_per_second[7]=[9901811.523438, ]
+aggregate_pkts_per_second.append(9901811.523438)
+per_input_pkts_per_second[8]=[12204915.039062, ]
+aggregate_pkts_per_second.append(12204915.039062)
+per_input_pkts_per_second[9]=[6779824.218750, ]
+aggregate_pkts_per_second.append(6779824.218750)
+per_input_pkts_per_second[10]=[8556093.750000, ]
+aggregate_pkts_per_second.append(8556093.750000)
+per_input_pkts_per_second[11]=[9182467.773438, ]
+aggregate_pkts_per_second.append(9182467.773438)
+per_input_pkts_per_second[12]=[11258775.390625, ]
+aggregate_pkts_per_second.append(11258775.390625)
+per_input_pkts_per_second[13]=[10816171.875000, ]
+aggregate_pkts_per_second.append(10816171.875000)
+per_input_pkts_per_second[14]=[11423636.718750, ]
+aggregate_pkts_per_second.append(11423636.718750)
+per_input_pkts_per_second[15]=[9198550.781250, ]
+aggregate_pkts_per_second.append(9198550.781250)
+per_input_pkts_per_second[16]=[10146858.398438, ]
+aggregate_pkts_per_second.append(10146858.398438)
+per_input_pkts_per_second[17]=[8852973.632812, ]
+aggregate_pkts_per_second.append(8852973.632812)
+per_input_pkts_per_second[18]=[10500510.742188, ]
+aggregate_pkts_per_second.append(10500510.742188)
+per_input_pkts_per_second[19]=[13334827.148438, ]
+aggregate_pkts_per_second.append(13334827.148438)
+per_input_pkts_per_second[20]=[9712660.156250, ]
+aggregate_pkts_per_second.append(9712660.156250)
+per_input_pkts_per_second[21]=[13256210.937500, ]
+aggregate_pkts_per_second.append(13256210.937500)
+per_input_pkts_per_second[22]=[9550000.000000, ]
+aggregate_pkts_per_second.append(9550000.000000)
+per_input_pkts_per_second[23]=[12195695.312500, ]
+aggregate_pkts_per_second.append(12195695.312500)
+per_input_pkts_per_second[24]=[9813412.109375, ]
+aggregate_pkts_per_second.append(9813412.109375)
+per_input_pkts_per_second[25]=[9526675.781250, ]
+aggregate_pkts_per_second.append(9526675.781250)
+per_input_pkts_per_second[26]=[9459556.640625, ]
+aggregate_pkts_per_second.append(9459556.640625)
+per_input_pkts_per_second[27]=[15185058.593750, ]
+aggregate_pkts_per_second.append(15185058.593750)
+per_input_pkts_per_second[28]=[10487760.742188, ]
+aggregate_pkts_per_second.append(10487760.742188)
+per_input_pkts_per_second[29]=[12307941.406250, ]
+aggregate_pkts_per_second.append(12307941.406250)
+per_input_pkts_per_second[30]=[11088516.601562, ]
+aggregate_pkts_per_second.append(11088516.601562)
+per_input_pkts_per_second[31]=[10396181.640625, ]
+aggregate_pkts_per_second.append(10396181.640625)
+per_input_pkts_per_second[32]=[10111959.960938, ]
+aggregate_pkts_per_second.append(10111959.960938)
+per_input_pkts_per_second[33]=[10211326.171875, ]
+aggregate_pkts_per_second.append(10211326.171875)
+per_input_pkts_per_second[34]=[10442301.757812, ]
+aggregate_pkts_per_second.append(10442301.757812)
+per_input_pkts_per_second[35]=[10547958.007812, ]
+aggregate_pkts_per_second.append(10547958.007812)
+per_input_pkts_per_second[36]=[9731261.718750, ]
+aggregate_pkts_per_second.append(9731261.718750)
+per_input_pkts_per_second[37]=[13582324.218750, ]
+aggregate_pkts_per_second.append(13582324.218750)
+per_input_pkts_per_second[38]=[14337493.164062, ]
+aggregate_pkts_per_second.append(14337493.164062)
+per_input_pkts_per_second[39]=[9630125.000000, ]
+aggregate_pkts_per_second.append(9630125.000000)
+per_input_pkts_per_second[40]=[10554406.250000, ]
+aggregate_pkts_per_second.append(10554406.250000)
+per_input_pkts_per_second[41]=[14047314.453125, ]
+aggregate_pkts_per_second.append(14047314.453125)
+per_input_pkts_per_second[42]=[8704782.226562, ]
+aggregate_pkts_per_second.append(8704782.226562)
+per_input_pkts_per_second[43]=[12528938.476562, ]
+aggregate_pkts_per_second.append(12528938.476562)
+per_input_pkts_per_second[44]=[11533344.726562, ]
+aggregate_pkts_per_second.append(11533344.726562)
+per_input_pkts_per_second[45]=[10730621.093750, ]
+aggregate_pkts_per_second.append(10730621.093750)
+per_input_pkts_per_second[46]=[10233509.765625, ]
+aggregate_pkts_per_second.append(10233509.765625)
+read 33489500 microflows 
+per_input_pkts_per_second[47]=[30637029.296875, ]
+aggregate_pkts_per_second.append(30637029.296875)
+per_input_pkts_per_second[48]=[251831750.000000, ]
+aggregate_pkts_per_second.append(251831750.000000)
+per_input_pkts_per_second[49]=[247565203.125000, ]
+aggregate_pkts_per_second.append(247565203.125000)
+per_input_pkts_per_second[50]=[254130500.000000, ]
+aggregate_pkts_per_second.append(254130500.000000)
+per_input_pkts_per_second[51]=[207563203.125000, ]
+aggregate_pkts_per_second.append(207563203.125000)
+per_input_pkts_per_second[52]=[216719406.250000, ]
+aggregate_pkts_per_second.append(216719406.250000)
+per_input_pkts_per_second[53]=[211621406.250000, ]
+aggregate_pkts_per_second.append(211621406.250000)
+per_input_pkts_per_second[54]=[209557796.875000, ]
+aggregate_pkts_per_second.append(209557796.875000)
+per_input_pkts_per_second[55]=[178518171.875000, ]
+aggregate_pkts_per_second.append(178518171.875000)
+per_input_pkts_per_second[56]=[171167671.875000, ]
+aggregate_pkts_per_second.append(171167671.875000)
+per_input_pkts_per_second[57]=[173657000.000000, ]
+aggregate_pkts_per_second.append(173657000.000000)
+per_input_pkts_per_second[58]=[177135671.875000, ]
+aggregate_pkts_per_second.append(177135671.875000)
+per_input_pkts_per_second[59]=[177388171.875000, ]
+aggregate_pkts_per_second.append(177388171.875000)
+per_input_pkts_per_second[60]=[171378671.875000, ]
+aggregate_pkts_per_second.append(171378671.875000)
+per_input_pkts_per_second[61]=[171108578.125000, ]
+aggregate_pkts_per_second.append(171108578.125000)
+# ---------------
+# ---------------
+# benchmarking a single clfr reader
+# loading 1123457191 bytes of CLFRs.
+# finished mallocing
+# finished reading
+per_input_packets_per_second = []
+aggregate_packets_per_second = []
+# executing kernels.
+per_input_packets_per_second[0]=[24491511.718750, ]
+aggregate_packets_per_second.append(24491511.718750)
+per_input_packets_per_second[1]=[38480921.875000, ]
+aggregate_packets_per_second.append(38480921.875000)
+per_input_packets_per_second[2]=[38513691.406250, ]
+aggregate_packets_per_second.append(38513691.406250)
+per_input_packets_per_second[3]=[41936750.000000, ]
+aggregate_packets_per_second.append(41936750.000000)
+per_input_packets_per_second[4]=[52800316.406250, ]
+aggregate_packets_per_second.append(52800316.406250)
+per_input_packets_per_second[5]=[50185101.562500, ]
+aggregate_packets_per_second.append(50185101.562500)
+per_input_packets_per_second[6]=[45499863.281250, ]
+aggregate_packets_per_second.append(45499863.281250)
+per_input_packets_per_second[7]=[52635949.218750, ]
+aggregate_packets_per_second.append(52635949.218750)
+per_input_packets_per_second[8]=[55600167.968750, ]
+aggregate_packets_per_second.append(55600167.968750)
+per_input_packets_per_second[9]=[52811261.718750, ]
+aggregate_packets_per_second.append(52811261.718750)
+per_input_packets_per_second[10]=[55614609.375000, ]
+aggregate_packets_per_second.append(55614609.375000)
+per_input_packets_per_second[11]=[47661382.812500, ]
+aggregate_packets_per_second.append(47661382.812500)
+per_input_packets_per_second[12]=[55668390.625000, ]
+aggregate_packets_per_second.append(55668390.625000)
+per_input_packets_per_second[13]=[71850289.062500, ]
+aggregate_packets_per_second.append(71850289.062500)
+per_input_packets_per_second[14]=[59134117.187500, ]
+aggregate_packets_per_second.append(59134117.187500)
+per_input_packets_per_second[15]=[55702332.031250, ]
+aggregate_packets_per_second.append(55702332.031250)
+per_input_packets_per_second[16]=[62783687.500000, ]
+aggregate_packets_per_second.append(62783687.500000)
+per_input_packets_per_second[17]=[55577000.000000, ]
+aggregate_packets_per_second.append(55577000.000000)
+per_input_packets_per_second[18]=[67203265.625000, ]
+aggregate_packets_per_second.append(67203265.625000)
+per_input_packets_per_second[19]=[62507000.000000, ]
+aggregate_packets_per_second.append(62507000.000000)
+per_input_packets_per_second[20]=[58847292.968750, ]
+aggregate_packets_per_second.append(58847292.968750)
+per_input_packets_per_second[21]=[67164796.875000, ]
+aggregate_packets_per_second.append(67164796.875000)
+per_input_packets_per_second[22]=[62671875.000000, ]
+aggregate_packets_per_second.append(62671875.000000)
+per_input_packets_per_second[23]=[62502937.500000, ]
+aggregate_packets_per_second.append(62502937.500000)
+per_input_packets_per_second[24]=[62560500.000000, ]
+aggregate_packets_per_second.append(62560500.000000)
+per_input_packets_per_second[25]=[55572277.343750, ]
+aggregate_packets_per_second.append(55572277.343750)
+per_input_packets_per_second[26]=[66847531.250000, ]
+aggregate_packets_per_second.append(66847531.250000)
+per_input_packets_per_second[27]=[68838929.687500, ]
+aggregate_packets_per_second.append(68838929.687500)
+per_input_packets_per_second[28]=[67121664.062500, ]
+aggregate_packets_per_second.append(67121664.062500)
+per_input_packets_per_second[29]=[75605929.687500, ]
+aggregate_packets_per_second.append(75605929.687500)
+per_input_packets_per_second[30]=[63065937.500000, ]
+aggregate_packets_per_second.append(63065937.500000)
+per_input_packets_per_second[31]=[68614796.875000, ]
+aggregate_packets_per_second.append(68614796.875000)
+per_input_packets_per_second[32]=[55615777.343750, ]
+aggregate_packets_per_second.append(55615777.343750)
+per_input_packets_per_second[33]=[55595000.000000, ]
+aggregate_packets_per_second.append(55595000.000000)
+per_input_packets_per_second[34]=[62653812.500000, ]
+aggregate_packets_per_second.append(62653812.500000)
+per_input_packets_per_second[35]=[52739789.062500, ]
+aggregate_packets_per_second.append(52739789.062500)
+per_input_packets_per_second[36]=[58960000.000000, ]
+aggregate_packets_per_second.append(58960000.000000)
+per_input_packets_per_second[37]=[62818250.000000, ]
+aggregate_packets_per_second.append(62818250.000000)
+per_input_packets_per_second[38]=[63622625.000000, ]
+aggregate_packets_per_second.append(63622625.000000)
+per_input_packets_per_second[39]=[58913707.031250, ]
+aggregate_packets_per_second.append(58913707.031250)
+per_input_packets_per_second[40]=[56290167.968750, ]
+aggregate_packets_per_second.append(56290167.968750)
+per_input_packets_per_second[41]=[65800578.125000, ]
+aggregate_packets_per_second.append(65800578.125000)
+per_input_packets_per_second[42]=[62565625.000000, ]
+aggregate_packets_per_second.append(62565625.000000)
+per_input_packets_per_second[43]=[63427750.000000, ]
+aggregate_packets_per_second.append(63427750.000000)
+per_input_packets_per_second[44]=[62712562.500000, ]
+aggregate_packets_per_second.append(62712562.500000)
+per_input_packets_per_second[45]=[63713062.500000, ]
+aggregate_packets_per_second.append(63713062.500000)
+per_input_packets_per_second[46]=[58993175.781250, ]
+aggregate_packets_per_second.append(58993175.781250)
+per_input_packets_per_second[47]=[89358000.000000, ]
+aggregate_packets_per_second.append(89358000.000000)
+per_input_packets_per_second[48]=[143903859.375000, ]
+aggregate_packets_per_second.append(143903859.375000)
+per_input_packets_per_second[49]=[137536218.750000, ]
+aggregate_packets_per_second.append(137536218.750000)
+per_input_packets_per_second[50]=[145217421.875000, ]
+aggregate_packets_per_second.append(145217421.875000)
+per_input_packets_per_second[51]=[172969328.125000, ]
+aggregate_packets_per_second.append(172969328.125000)
+per_input_packets_per_second[52]=[154799578.125000, ]
+aggregate_packets_per_second.append(154799578.125000)
+per_input_packets_per_second[53]=[151158140.625000, ]
+aggregate_packets_per_second.append(151158140.625000)
+per_input_packets_per_second[54]=[174631500.000000, ]
+aggregate_packets_per_second.append(174631500.000000)
+per_input_packets_per_second[55]=[153015578.125000, ]
+aggregate_packets_per_second.append(153015578.125000)
+per_input_packets_per_second[56]=[171167671.875000, ]
+aggregate_packets_per_second.append(171167671.875000)
+per_input_packets_per_second[57]=[173657000.000000, ]
+aggregate_packets_per_second.append(173657000.000000)
+per_input_packets_per_second[58]=[151830578.125000, ]
+aggregate_packets_per_second.append(151830578.125000)
+per_input_packets_per_second[59]=[177388171.875000, ]
+aggregate_packets_per_second.append(177388171.875000)
+per_input_packets_per_second[60]=[171378671.875000, ]
+aggregate_packets_per_second.append(171378671.875000)
+per_input_packets_per_second[61]=[171108578.125000, ]
+aggregate_packets_per_second.append(171108578.125000)
+# ---------------
+# read 5350275 clfrs ( 1123457191bytes ) representing 126387677 packets 
+# bytes per packet: 8.888977
+# packets per record: 23.622652
+# ---------------
+# benchmarking flow meas clfr app
+# loading 1123457191 bytes of CLFRs.
+# finished mallocing
+# finished reading
+per_input_flows_per_second = []
+aggregate_flows_per_second = []
+# executing kernels.
+per_input_flows_per_second[0]=[1258142.089844, ]
+aggregate_flows_per_second.append(1258142.089844)
+per_input_flows_per_second[1]=[1080154.418945, ]
+aggregate_flows_per_second.append(1080154.418945)
+per_input_flows_per_second[2]=[843358.337402, ]
+aggregate_flows_per_second.append(843358.337402)
+# ---------------
+# read 5350275 clfrs ( 1123457191bytes ) representing 126387677 packets 
+# bytes per packet: 8.888977
+# packets per record: 23.622652
+# ---------------
+# benchmarking microburst clfr app
+# loading 65232848 bytes of CLFRs.
+# finished mallocing
+# finished reading
+per_input_pkts_per_second = []
+aggregate_pkts_per_second = []
+per_input_pkts_per_second[0]=[39193667.968750, ]
+aggregate_pkts_per_second.append(39193667.968750)
+per_input_pkts_per_second[1]=[46319000.000000, ]
+aggregate_pkts_per_second.append(46319000.000000)
+per_input_pkts_per_second[2]=[62247000.000000, ]
+aggregate_pkts_per_second.append(62247000.000000)
+per_input_pkts_per_second[3]=[116239000.000000, ]
+aggregate_pkts_per_second.append(116239000.000000)
+per_input_pkts_per_second[4]=[112193000.000000, ]
+aggregate_pkts_per_second.append(112193000.000000)
+per_input_pkts_per_second[5]=[71272500.000000, ]
+aggregate_pkts_per_second.append(71272500.000000)
+per_input_pkts_per_second[6]=[66044000.000000, ]
+aggregate_pkts_per_second.append(66044000.000000)
+per_input_pkts_per_second[7]=[121107000.000000, ]
+aggregate_pkts_per_second.append(121107000.000000)
+per_input_pkts_per_second[8]=[6522625.000000, ]
+aggregate_pkts_per_second.append(6522625.000000)
+per_input_pkts_per_second[9]=[5199700.195312, ]
+aggregate_pkts_per_second.append(5199700.195312)
+per_input_pkts_per_second[10]=[4822272.949219, ]
+aggregate_pkts_per_second.append(4822272.949219)
+per_input_pkts_per_second[11]=[4922954.589844, ]
+aggregate_pkts_per_second.append(4922954.589844)
+per_input_pkts_per_second[12]=[4485500.000000, ]
+aggregate_pkts_per_second.append(4485500.000000)
+per_input_pkts_per_second[13]=[4203769.042969, ]
+aggregate_pkts_per_second.append(4203769.042969)
+per_input_pkts_per_second[14]=[3847807.617188, ]
+aggregate_pkts_per_second.append(3847807.617188)
+per_input_pkts_per_second[15]=[4747041.503906, ]
+aggregate_pkts_per_second.append(4747041.503906)
+per_input_pkts_per_second[16]=[3809862.060547, ]
+aggregate_pkts_per_second.append(3809862.060547)
+per_input_pkts_per_second[17]=[5002750.000000, ]
+aggregate_pkts_per_second.append(5002750.000000)
+per_input_pkts_per_second[18]=[4793708.496094, ]
+aggregate_pkts_per_second.append(4793708.496094)
+per_input_pkts_per_second[19]=[4190375.000000, ]
+aggregate_pkts_per_second.append(4190375.000000)
+per_input_pkts_per_second[20]=[4855565.429688, ]
+aggregate_pkts_per_second.append(4855565.429688)
+per_input_pkts_per_second[21]=[5109750.000000, ]
+aggregate_pkts_per_second.append(5109750.000000)
+per_input_pkts_per_second[22]=[3814714.355469, ]
+aggregate_pkts_per_second.append(3814714.355469)
+per_input_pkts_per_second[23]=[4015199.951172, ]
+aggregate_pkts_per_second.append(4015199.951172)
+per_input_pkts_per_second[24]=[3883793.212891, ]
+aggregate_pkts_per_second.append(3883793.212891)
+per_input_pkts_per_second[25]=[4468478.027344, ]
+aggregate_pkts_per_second.append(4468478.027344)
+per_input_pkts_per_second[26]=[4421560.058594, ]
+aggregate_pkts_per_second.append(4421560.058594)
+per_input_pkts_per_second[27]=[5410350.097656, ]
+aggregate_pkts_per_second.append(5410350.097656)
+per_input_pkts_per_second[28]=[4653090.820312, ]
+aggregate_pkts_per_second.append(4653090.820312)
+per_input_pkts_per_second[29]=[4579260.742188, ]
+aggregate_pkts_per_second.append(4579260.742188)
+per_input_pkts_per_second[30]=[5280684.082031, ]
+aggregate_pkts_per_second.append(5280684.082031)
+per_input_pkts_per_second[31]=[4563041.503906, ]
+aggregate_pkts_per_second.append(4563041.503906)
+per_input_pkts_per_second[32]=[4811190.429688, ]
+aggregate_pkts_per_second.append(4811190.429688)
+per_input_pkts_per_second[33]=[4840090.820312, ]
+aggregate_pkts_per_second.append(4840090.820312)
+per_input_pkts_per_second[34]=[3715206.787109, ]
+aggregate_pkts_per_second.append(3715206.787109)
+# ---------------
+# read 150000 clfrs ( 65232848bytes ) representing 7760356 packets 
+# bytes per packet: 8.405910
+# packets per record: 51.735706
